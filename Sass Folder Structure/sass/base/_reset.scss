@@ -1,6 +1,6 @@
 *,
 *::after,
-*::before{
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,17 +11,15 @@ ul {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-button{
-  border: none;
+button {
   cursor: pointer;
 }
 
 input {
-  border: none;
   background-color: transparent;
 }

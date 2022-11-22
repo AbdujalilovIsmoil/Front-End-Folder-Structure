@@ -4,8 +4,8 @@ const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => document.querySelectorAll(selector);
 
 
-const creatElement = (tagName, className, content) => {
-  const div = document.creatElement(tagName);
+const createDiv = (tagName, className, content) => {
+  const div = document.createElement(tagName);
   if (className) {
     div.setAttribute("class", className);
   }
